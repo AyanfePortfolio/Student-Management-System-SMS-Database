@@ -54,3 +54,42 @@ One student → many enrollments
 One course → many enrollments  
 
 Courses ↔ Instructors → many-to-many (via CourseInstructors)  
+
+![Student Management System ERD ](https://github.com/user-attachments/assets/f7d81347-53ea-49e1-8c98-44ff9a269f30)
+
+
+## Data Population
+
+The database was populated with realistic sample data representing real academic operations:
+
+- 8 Departments
+
+- 22 Courses
+
+- 18 Instructors
+
+- 61 Students
+
+- 100 Enrollments
+
+- 30 Course-Instructor assignments
+
+
+## SQL-Based Reporting & Analysis
+
+SQL queries were written using:
+
+- JOIN operations
+
+- GROUP BY and HAVING
+
+- Aggregate functions (COUNT, AVG)
+
+- Filtering and sorting
+
+- Aliasing for clarity
+
+
+## Conclusion
+
+This project demonstrates the effectiveness of relational database design in solving real academic data challenges. It highlights structured modeling, enforced constraints, and SQL-driven insights to support institutional decision-making.
